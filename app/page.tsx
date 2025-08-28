@@ -1,3 +1,7 @@
+"use client";
+
+import { useState } from "react";
+
 export default function ETHomeServices() {
   return (
     <div className="min-h-screen bg-white text-slate-900">
@@ -175,8 +179,6 @@ export default function ETHomeServices() {
 }
 
 // --- Before/After Slider Components ---
-import { useState } from "react";
-
 function BeforeAfterCard({ before, after, caption }: { before: string; after: string; caption: string }) {
   return (
     <div className="rounded-3xl overflow-hidden border border-slate-200 bg-white">
